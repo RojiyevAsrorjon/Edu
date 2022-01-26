@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_option_text">Qaraqalpaq</string>
+    <string name="find_your_work_task">Ózińizge múnásip kásipti anıqlań</string>
+    <string name="big_text">Qanday kásip iyelew haqqında oylanıp kórdińizbe? Kásip mamanı bolıw ushın mektepte qaysı pánlerdi tereń úyreniw kerek? Hár bir kásiptiń qanday abzallıq yamasa kemshilik tárepleri boladı? Berilgen sawallarģa juwap tabıw ushın usı veb-platforma imkaniyatlarınan paydalanıń hám ózińizge múnásip kásip iyesi bolıń</string>
+    <string name="not_connection">"Server menen baylanıs joq"</string>
+    <string name="loading_text">Júklenip atır...</string>
+    <string name="long_text">Internet jalǵanıwıńızdı tekseriń  hám qayta urınıp kóriń</string>
+    <string name="retry_text">Qayta urınıp kóriw</string>
+    <string name="lang_text">Qar</string>
+    <string name="opportunities_text">Múmkinshilikler</string>
+    <string name="info_text">Innovatsiya, texnologiya hám strategiya orayı</string>
+    <string name="calculator_text">Kalkulyator</string>
+    <string name="do_text">Rezyume dúziń</string>
+    <string name="language_text">"Tildi saylań"</string>
+    <string name="about_project_text">Joybar haqqıda</string>
+    <string name="sources_text">Qollanba</string>
+    <string name="trainging_text">Treningler</string>
+    <string name="resume_creating">Rezyume dúziń</string>
+    <string name="work_text">Kásipler</string>
+    <string name="dolzarb_kasblar_text"><u>Aktual kásipler</u></string>
+
+</resources>

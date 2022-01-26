@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">Prof.maktab.uz</string>
+    <string name="work_text">Kasblar</string>
+    <string name="resume_creating">Rezyume yarating</string>
+    <string name="trainging_text">Treninglar</string>
+    <string name="sources_text">Qo`llanma</string>
+    <string name="about_project_text">Loyiha haqida</string>
+    <string name="language_text">Tilni tanlang</string>
+    <string name="find_your_work_task">O`zingizga munosib kasbni aniqlang</string>
+    <string name="do_text">Rezyume yarating</string>
+    <string name="calculator_text">Kalkulyator</string>
+    <string name="info_text">Innovatsiya, texnologiya va strategiya markazi</string>
+    <string name="opportunities_text">Imkoniyatlar</string>
+    <string name="language_option_text">O`zbek</string>
+    <string name="big_text">Qanday kasb egallash haqida o`ylab ko`rgansiz? Mohir kasb egasi bo`lish uchun maktabda qaysi fanlarni chuqur o`rganish lozim? Har qanday kasbning qanday afzallik yoki kamchiliklari mavjud? Yuqoridagi savollarga javob topishda mazkur veb-platforma imkoniyatlaridan foydalaning va o`zingizga maos kasb egasi bo`ling</string>
+    <string name="prof_itsm_uz" translatable="false">Contact: prof@itsm.uz</string>
+    <string name="not_connection">Server bilan aloqa yo`q</string>
+    <string name="long_text">Internet ulanishingizni tekshiring\nva qayta urinib ko`ring</string>
+    <string name="loading_text">Yuklanmoqda…</string>
+    <string name="retry_text">Qayta urinib ko`rish</string>
+    <string name="lang_text">Uz</string>
+    <string name="copyright_2022_c_text" translatable="false">CopyRight 2022 (C)</string>
+    <string name="e_mail_prof_itsm_uz_text" translatable="false">E-mail: prof@itsm.uz</string>
+    <string name="youtube_text" translatable="false"><u>/youtube</u></string>
+    <string name="instagram_text" translatable="false"><u>/instagram</u></string>
+    <string name="facebook_text" translatable="false"><u>/facebook</u></string>
+    <string name="dolzarb_kasblar_text"><u>Dolzarb kasblar</u></string>
+</resources>

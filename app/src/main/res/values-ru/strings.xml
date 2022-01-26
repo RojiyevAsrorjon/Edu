@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_text">Профессии</string>
+    <string name="resume_creating">Создайте резюме</string>
+    <string name="trainging_text">Тренинги</string>
+    <string name="sources_text">Инструкция</string>
+    <string name="about_project_text">О проекте</string>
+    <string name="find_your_work_task">Определите соответствующую вам профессию</string>
+    <string name="do_text">Создайте резюме</string>
+    <string name="calculator_text">Калькулятор</string>
+    <string name="info_text">Центр инноваций, технологий и стратегии</string>
+    <string name="opportunities_text">"Возможности"</string>
+    <string name="long_text">"Проверьте подключение к Интернету и попробуй еще раз"</string>
+    <string name="big_text">Вы когда-нибудь задумывались о том, какую профессию выбрать? Какие предметы вам нужно изучать в школе, чтобы стать квалифицированным профессионалом? Каковы преимущества и недостатки любой профессии? Воспользуйтесь возможностями этой веб-платформы, чтобы найти ответы на поставленные выше вопросы, станьте профессионалом своего дела</string>
+    <string name="not_connection">Нет подключения к серверу</string>
+    <string name="loading_text">"Загрузка…"</string>
+    <string name="retry_text">Пожалуйста, попробуйте еще раз</string>
+    <string name="language_text">Выберите язык</string>
+    <string name="language_option_text">Русский</string>
+    <string name="lang_text">Ru</string>
+    <string name="dolzarb_kasblar_text"><u>Текущие занятия</u></string>
+
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/appBar"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backButton"
+            android:src="@drawable/ic_back"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="?android:selectableItemBackgroundBorderless"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web View Screen"
+            android:textColor="#00BBC7"
+            android:fontFamily="@font/bill"
+            android:textSize="22sp"
+            android:id="@+id/titleWeb"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/webView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appBar"
+        android:layout_height="0dp"/>
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        style="?android:attr/progressBarStyleLarge"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/progressBar"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:id="@+id/conLayout"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/backInvisible"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintDimensionRatio="1:1"
+            android:src="@drawable/network"
+            android:id="@+id/image"
+            android:visibility="invisible"
+            android:padding="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_connection"
+            android:id="@+id/redText"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginBottom="16dp"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            android:fontFamily="@font/bill"
+            app:layout_constraintBottom_toTopOf="@id/longText"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.75"
+            android:layout_height="wrap_content"
+            android:text="@string/long_text"
+            android:gravity="center"
+            android:fontFamily="@font/bill"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/longText"
+            app:layout_constraintBottom_toTopOf="@id/image"
+            android:textSize="18sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="16dp"
+
+            android:background="@drawable/bg_button_un"
+            android:text="@string/retry_text"
+            app:layout_constraintTop_toBottomOf="@id/image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:fontFamily="@font/bill"
+            android:textAllCaps="false"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintVertical_bias="0.2"
+            android:id="@+id/retryButton"/>
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            style="?android:attr/progressBarStyleLarge"
+            app:layout_constraintTop_toBottomOf="@id/retryButton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:id="@+id/progressBar1"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
